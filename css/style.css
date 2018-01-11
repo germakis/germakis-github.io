@@ -1,0 +1,81 @@
+* {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+}
+.main_head {
+  margin-top: 3%;
+  /* примерно */
+}
+.main_logo_border {
+  border: 3px solid #706b73;
+  width: 150px;
+  height: 55px;
+  text-align: center;
+  line-height: 49px;
+  /* для vh .по идее 55, но -6px border */
+  background-color: #fff;
+}
+.main_logo_border p {
+  font-weight: 600;
+  font-size: 36px;
+  color: #706b73;
+}
+.main_logo_border p span {
+  color: #fc6744;
+}
+.main_nav_bar {
+  position: relative;
+  width: 30px;
+  float: right;
+  margin-top: 25px;
+}
+.main_nav .line {
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  width: 30px;
+  height: 4px;
+  background-color: #706b73;
+  -webkit-transform: translateY(-1px);
+  -ms-transform: translateY(-1px);
+  -o-transform: translateY(-1px);
+  transform: translateY(-1px);
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  -border-radius: 5px;
+}
+.main_nav .line:before {
+  position: absolute;
+  content: '';
+  width: 30px;
+  height: 4px;
+  background-color: #706b73;
+  -webkit-transform: translateY(-8px);
+  -ms-transform: translateY(-8px);
+  -o-transform: translateY(-8px);
+  transform: translateY(-8px);
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  -border-radius: 5px;
+}
+.main_nav .line:after {
+  position: absolute;
+  content: '';
+  width: 30px;
+  height: 4px;
+  background-color: #706b73;
+  -webkit-transform: translateY(8px);
+  -ms-transform: translateY(8px);
+  -o-transform: translateY(8px);
+  transform: translateY(8px);
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  -border-radius: 5px;
+}
